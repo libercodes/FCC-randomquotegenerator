@@ -1,33 +1,75 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+div{
+  width: 100%;
+  height: 800px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+#container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+/*   justify-content: center; */
+  width: 800px;
+  height: 400px;
+  background-color: whitesmoke;
+  text-align: center;
+  font-family: 'Roboto';
+  box-shadow: 0px 0px 10px;
+  justify-content: space-around;
+
+}
+#container h3{
+  display: block;
+  width: 90%;
+  text-align: right;
+}
+#new-quote{
+  margin: 1rem;
+  width: 120px;
+  height: 50px;
+  outline: none;
+  border: none;
+  background-color: indianred;
+  border-radius: 7px;
 }
 
-.App-link {
-  color: #61dafb;
+#new-quote:hover{
+  background-color: rgb(250, 126, 126); 
+}
+#new-quote:active{
+  box-shadow: 0px 5px 10px gray;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn{
+  margin: 1rem;
+  width: 120px;
+  height: 50px;
+  outline: none;
+  border: none;
+  background-color: indianred;
+  border-radius: 7px;
+}
+
+.btn:hover{
+  background-color: rgb(250, 126, 126); 
+}
+.btn:active{
+  box-shadow: 0px 5px 10px gray;
+}
+#tweet-quote text{
+  
 }
